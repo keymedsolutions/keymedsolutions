@@ -20,6 +20,7 @@ import Booking from './pages/booking';
 import BlogGrid from './pages/blog-grid';
 import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
+import PhysicianBillingServices from './pages/physician-billing-services';
 
 class Markup extends Component{
 	render(){
@@ -42,6 +43,7 @@ class Markup extends Component{
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/blog-grid' exact component={BlogGrid} />
 						<Route path='/blog-details' exact component={BlogDetails} />
+						<Route path='/physician-billing-services' exact component={PhysicianBillingServices} />						
 						<Route component={Error} />
 						
 					</Switch>
