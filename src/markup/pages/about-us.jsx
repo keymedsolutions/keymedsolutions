@@ -6,11 +6,11 @@ import Header from "../layout/header2";
 import Footer from "../layout/footer";
 
 // Elements
-import AboutSection from "../elements/about";
-import LatestNewsSection from "../elements/latest-news-slider";
-import FeatureSection3 from "../elements/feature-section3";
-import TeamSection from "../elements/team";
-import TestimonialSection from "../elements/testimonial";
+// import AboutSection from "../elements/about";
+// import LatestNewsSection from "../elements/latest-news-slider";
+// import FeatureSection3 from "../elements/feature-section3";
+// import TeamSection from "../elements/team";
+// import TestimonialSection from "../elements/testimonial";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";

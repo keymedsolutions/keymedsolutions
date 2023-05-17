@@ -1,16 +1,9 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
-// Layout
-import Header from "../layout/header2";
-import Footer from "../layout/footer";
-
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
 import pic1 from "../../images/about/pic-1.jpg";
-import icon1 from "../../images/icon/icon1.png";
-import icon2 from "../../images/icon/icon2.png";
-import icon3 from "../../images/icon/icon3.png";
 import animateWave from "../../images/shap/wave-blue.png";
 import animate2 from "../../images/shap/circle-dots.png";
 import animateRotate from "../../images/shap/plus-blue.png";
@@ -51,7 +44,7 @@ class QuoteHome extends Component{
 												</div>
 												<div className="form-group col-md-12">
 													<select className="form-select form-control">
-														<option selected>Type here to select the state</option>
+														<option value="0">Type here to select the state</option>
 														<option value="1">One</option>
 														<option value="2">Two</option>
 														<option value="3">Three</option>
@@ -59,7 +52,7 @@ class QuoteHome extends Component{
 												</div>
 												<div className="form-group col-md-12">
 													<select className="form-select form-control">
-														<option selected>Type here to select the Specialty</option>
+														<option value="0">Type here to select the Specialty</option>
 														<option value="1">One</option>
 														<option value="2">Two</option>
 														<option value="3">Three</option>
