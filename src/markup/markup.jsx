@@ -25,7 +25,7 @@ class Markup extends Component{
 	render(){
 		return(
 			<>
-				<BrowserRouter basename={'/react/'}>
+				<BrowserRouter>
 				
 					<Switch>
 					
