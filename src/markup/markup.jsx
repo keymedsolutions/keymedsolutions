@@ -31,6 +31,7 @@ import MedicalBillingCodingServices from './pages/medical-billing-coding-service
 import MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices from './pages/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services';
 import StreamliningMedicalARRecovery from './pages/streamlining-medical-AR-recovery';
 import PracticeManagement from './pages/practice-management';
+import VerificationOfHealthcareInsuranceEligibility from './pages/verification-of-healthcare-insurance-eligibility';
 
 class Markup extends Component{
 	render(){
@@ -64,6 +65,7 @@ class Markup extends Component{
 						<Route path='/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services' exact component={MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices} />
 						<Route path='/streamlining-medical-AR-recovery' exact component={StreamliningMedicalARRecovery} />
 						<Route path='/practice-management' exact component={PracticeManagement} />
+						<Route path='/verification-of-healthcare-insurance-eligibility' exact component={VerificationOfHealthcareInsuranceEligibility} />
 						<Route component={Error} />
 						
 					</Switch>
