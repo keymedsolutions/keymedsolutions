@@ -28,7 +28,8 @@ import CardiologyMedicalBilling from './pages/cardiology-medical-billing';
 import ImprovingYourFinancialHealthWithProfitEnhancementServices from './pages/improving-your-financial-health-with-profit-enhancement-services';
 import ICD10MedicalCoding from './pages/ICD-10-medical-coding';
 import MedicalBillingCodingServices from './pages/medical-billing-coding-services';
-import MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices from './pages/maximize-your-reimbursement-rate-with-0ur-medical-billing-and-collection-services';
+import MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices from './pages/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services';
+import StreamliningMedicalARRecovery from './pages/streamlining-medical-AR-recovery';
 
 class Markup extends Component{
 	render(){
@@ -59,7 +60,8 @@ class Markup extends Component{
 						<Route path='/improving-your-financial-health-with-profit-enhancement-services' exact component={ImprovingYourFinancialHealthWithProfitEnhancementServices} />
 						<Route path='/medical-billing-coding-services' exact component={MedicalBillingCodingServices} />
 						<Route path='/ICD-10-medical-coding' exact component={ICD10MedicalCoding} />
-						<Route path='/maximize-your-reimbursement-rate-with-0ur-medical-billing-and-collection-services' exact component={MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices} />
+						<Route path='/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services' exact component={MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices} />
+						<Route path='/streamlining-medical-AR-recovery' exact component={StreamliningMedicalARRecovery} />
 						<Route component={Error} />
 						
 					</Switch>
