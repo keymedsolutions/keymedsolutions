@@ -4,7 +4,8 @@ import Sticky from 'react-stickynode';
 
 // Images
 import logo from '../../images/logo.png';
-import logoWhite from '../../images/logo-white.png';
+// import logoWhite from '../../images/logo-white.png';
+// import keymedSolution from '../../images/key-medsolutions.svg'
 
 class Header extends Component{
 	
@@ -48,10 +49,8 @@ class Header extends Component{
             
             if(active){
                 current.classList.remove('open') 
-                console.log("active")
             } else{
                 current.classList.add('open');
-                console.log("close")
             }
         }
     }
@@ -80,7 +79,7 @@ class Header extends Component{
 								</div>
 								<div className="menu-links navbar-collapse collapse justify-content-end" id="menuDropdown">
 									<div className="menu-logo">
-										<Link to="/"><img src={logoWhite} alt=""/></Link>
+										<Link to="/"><img src={logo} alt=""/></Link>
 									</div>
 									<ul className="nav navbar-nav">	
 										<li><Link to="/">Home</Link></li>
