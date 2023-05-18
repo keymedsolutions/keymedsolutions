@@ -25,6 +25,7 @@ import MedicalClaimBilling from './pages/medical-claim-billing';
 import InternalMedicineAndNephrologyBillingServices from './pages/internal-medicine-and-nephrology-billing-service';
 import RadiologyBillingServices from './pages/radiology-billing-services';
 import CardiologyMedicalBilling from './pages/cardiology-medical-billing';
+import ImprovingYourFinancialHealthWithProfitEnhancementServices from './pages/improving-your-financial-health-with-profit-enhancement-services';
 
 class Markup extends Component{
 	render(){
@@ -52,6 +53,7 @@ class Markup extends Component{
 						<Route path='/internal-medicine-and-nephrology-billing-service' exact component={InternalMedicineAndNephrologyBillingServices} />	
 						<Route path='/radiology-billing-services' exact component={RadiologyBillingServices} />
 						<Route path='/cardiology-medical-billing' exact component={CardiologyMedicalBilling} />
+						<Route path='/improving-your-financial-health-with-profit-enhancement-services' exact component={ImprovingYourFinancialHealthWithProfitEnhancementServices} />
 						<Route component={Error} />
 						
 					</Switch>

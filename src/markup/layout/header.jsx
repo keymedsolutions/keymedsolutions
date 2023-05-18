@@ -97,7 +97,7 @@ class Header extends Component{
 														<li><Link to="/cardiology-medical-billing"><span>Cardiology medical billing</span></Link></li>														
 													</ul>
 												</li>
-												<li><Link to="/service-detail"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
+												<li><Link to="/improving-your-financial-health-with-profit-enhancement-services"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Medical Billing & Coding Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Streamlining Medical AR Recovery - Boosting Revenue Collection Promptly</span></Link></li>
