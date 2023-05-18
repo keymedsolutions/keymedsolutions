@@ -94,7 +94,7 @@ class Header extends Component{
 														<li><Link to="/medical-claim-billing"><span>Medical claim Billing</span></Link></li>
 														<li><Link to="/internal-medicine-and-nephrology-billing-service"><span>Internal medicine and nephrology billing services</span></Link></li>
 														<li><Link to="/radiology-billing-services"><span>Radiology billing services</span></Link></li>
-														<li><Link to="/service-detail"><span>Cardiology medical billing</span></Link></li>														
+														<li><Link to="/cardiology-medical-billing"><span>Cardiology medical billing</span></Link></li>														
 													</ul>
 												</li>
 												<li><Link to="/service-detail"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
