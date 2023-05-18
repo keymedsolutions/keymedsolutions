@@ -33,6 +33,7 @@ import StreamliningMedicalARRecovery from './pages/streamlining-medical-AR-recov
 import PracticeManagement from './pages/practice-management';
 import VerificationOfHealthcareInsuranceEligibility from './pages/verification-of-healthcare-insurance-eligibility';
 import RevenueCycleManagementCompany from './pages/revenue-cycle-management-company';
+import DenialManagementServices from './pages/denial-management-service';
 
 class Markup extends Component{
 	render(){
@@ -68,6 +69,7 @@ class Markup extends Component{
 						<Route path='/practice-management' exact component={PracticeManagement} />
 						<Route path='/verification-of-healthcare-insurance-eligibility' exact component={VerificationOfHealthcareInsuranceEligibility} />
 						<Route path='/revenue-cycle-management-company' exact component={RevenueCycleManagementCompany} />
+						<Route path='/denial-management-service' exact component={DenialManagementServices} />
 						<Route component={Error} />
 						
 					</Switch>
