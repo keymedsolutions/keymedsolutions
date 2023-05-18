@@ -98,7 +98,12 @@ class Header extends Component{
 													</ul>
 												</li>
 												<li><Link to="/improving-your-financial-health-with-profit-enhancement-services"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Medical Billing & Coding Services</span></Link></li>
+												<li>
+													<Link to="/medical-billing-coding-services"><span>Medical Billing & Coding Services</span></Link>
+													<ul className="sub-menu md-menu">												
+														<li><Link to="/ICD-10-medical-coding"><span>ICD-10 medical coding</span></Link></li>
+													</ul>
+												</li>
 												<li><Link to="/service-detail"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Streamlining Medical AR Recovery - Boosting Revenue Collection Promptly</span></Link></li>
 												<li><Link to="/service-detail"><span>Practice Management</span></Link></li>
