@@ -87,6 +87,9 @@
 	}
 	&.active,
 	&:hover{
+		h6 {
+			color: white;
+		}
 		&:after {
 			height: 100%;
 			top: auto;

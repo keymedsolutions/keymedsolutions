@@ -83,7 +83,7 @@ class Header extends Component{
 										<Link to="/"><img src={logoWhite} alt=""/></Link>
 									</div>
 									<ul className="nav navbar-nav">	
-										<li className="active"><Link to="/">Home</Link></li>
+										<li><Link to="/">Home</Link></li>
 										<li><Link to="/about-us"><span>About Us</span></Link></li>
 										<li>
 											<Link to="#">Services</Link>
@@ -113,8 +113,8 @@ class Header extends Component{
 												<li><Link to="/physician-credentialing"><span>Physician Credentialing</span></Link></li>
 											</ul>										
 										</li>
-										<li><Link to="/about-us"><span>Our Specialties</span></Link></li>
-										<li><Link to="/about-us"><span>BLOG</span></Link></li>
+										<li><Link to="/our-specialities"><span>Our Specialties</span></Link></li>
+										<li><Link to="/blog"><span>Blog</span></Link></li>
 										<li>
 											<Link to="#">Contact Us</Link>
 											<ul className="sub-menu">												

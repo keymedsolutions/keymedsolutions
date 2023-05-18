@@ -84,25 +84,38 @@ class Header extends Component{
 										<Link to="/"><img src={logoWhite} alt=""/></Link>
 									</div>
 									<ul className="nav navbar-nav">	
-									<li className="active"><Link to="/">Home</Link></li>
+										<li><Link to="/">Home</Link></li>
 										<li><Link to="/about-us"><span>About Us</span></Link></li>
 										<li>
 											<Link to="#">Services</Link>
-											<ul className="sub-menu">												
-												<li><Link to="/service-detail"><span>Physician Billing Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Medical Billing & Coding Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Streamlining Medical AR Recovery - Boosting Revenue Collection Promptly</span></Link></li>
-												<li><Link to="/service-detail"><span>Practice Management</span></Link></li>
-												<li><Link to="/service-detail"><span>Verification of healthcare insurance eligibility</span></Link></li>
-												<li><Link to="/service-detail"><span>Revenue Cycle Management Company (RCM)</span></Link></li>
-												<li><Link to="/service-detail"><span>Denial Management Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Physician Credentialing</span></Link></li>
+											<ul className="sub-menu lg-menu">												
+												<li>
+													<Link to="/physician-billing-services"><span>Physician Billing Services</span></Link>
+													<ul className="sub-menu md-menu">												
+														<li><Link to="/medical-claim-billing"><span>Medical claim Billing</span></Link></li>
+														<li><Link to="/internal-medicine-and-nephrology-billing-service"><span>Internal medicine and nephrology billing services</span></Link></li>
+														<li><Link to="/radiology-billing-services"><span>Radiology billing services</span></Link></li>
+														<li><Link to="/cardiology-medical-billing"><span>Cardiology medical billing</span></Link></li>														
+													</ul>
+												</li>
+												<li><Link to="/improving-your-financial-health-with-profit-enhancement-services"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
+												<li>
+													<Link to="/medical-billing-coding-services"><span>Medical Billing & Coding Services</span></Link>
+													<ul className="sub-menu md-menu">												
+														<li><Link to="/ICD-10-medical-coding"><span>ICD-10 medical coding</span></Link></li>
+													</ul>
+												</li>
+												<li><Link to="/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
+												<li><Link to="/streamlining-medical-AR-recovery"><span>Streamlining Medical AR Recovery - Boosting Revenue Collection Promptly</span></Link></li>
+												<li><Link to="/practice-management"><span>Practice Management</span></Link></li>
+												<li><Link to="/verification-of-healthcare-insurance-eligibility"><span>Verification of healthcare insurance eligibility</span></Link></li>
+												<li><Link to="/revenue-cycle-management-company"><span>Revenue Cycle Management Company (RCM)</span></Link></li>
+												<li><Link to="/denial-management-service"><span>Denial Management Services</span></Link></li>
+												<li><Link to="/physician-credentialing"><span>Physician Credentialing</span></Link></li>
 											</ul>										
 										</li>
-										<li><Link to="/about-us"><span>Our Specialties</span></Link></li>
-										<li><Link to="/about-us"><span>BLOG</span></Link></li>
+										<li><Link to="/our-specialities"><span>Our Specialties</span></Link></li>
+										<li><Link to="/blog"><span>Blog</span></Link></li>
 										<li>
 											<Link to="#">Contact Us</Link>
 											<ul className="sub-menu">												
