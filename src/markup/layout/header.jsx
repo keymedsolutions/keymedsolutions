@@ -104,7 +104,7 @@ class Header extends Component{
 														<li><Link to="/ICD-10-medical-coding"><span>ICD-10 medical coding</span></Link></li>
 													</ul>
 												</li>
-												<li><Link to="/service-detail"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
+												<li><Link to="/maximize-your-reimbursement-rate-with-0ur-medical-billing-and-collection-services"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Streamlining Medical AR Recovery - Boosting Revenue Collection Promptly</span></Link></li>
 												<li><Link to="/service-detail"><span>Practice Management</span></Link></li>
 												<li><Link to="/service-detail"><span>Verification of healthcare insurance eligibility</span></Link></li>
