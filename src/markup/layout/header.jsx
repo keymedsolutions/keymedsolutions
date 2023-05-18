@@ -92,7 +92,7 @@ class Header extends Component{
 													<Link to="/physician-billing-services"><span>Physician Billing Services</span></Link>
 													<ul className="sub-menu md-menu">												
 														<li><Link to="/medical-claim-billing"><span>Medical claim Billing</span></Link></li>
-														<li><Link to="/service-detail"><span>Internal medicine and nephrology billing services</span></Link></li>
+														<li><Link to="/internal-medicine-and-nephrology-billing-service"><span>Internal medicine and nephrology billing services</span></Link></li>
 														<li><Link to="/service-detail"><span>Radiology billing services</span></Link></li>
 														<li><Link to="/service-detail"><span>Cardiology medical billing</span></Link></li>														
 													</ul>

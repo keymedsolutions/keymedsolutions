@@ -22,6 +22,7 @@ import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 import PhysicianBillingServices from './pages/physician-billing-services';
 import MedicalClaimBilling from './pages/medical-claim-billing';
+import InternalMedicineAndNephrologyBillingServices from './pages/internal-medicine-and-nephrology-billing-service';
 
 class Markup extends Component{
 	render(){
@@ -45,7 +46,9 @@ class Markup extends Component{
 						<Route path='/blog-grid' exact component={BlogGrid} />
 						<Route path='/blog-details' exact component={BlogDetails} />
 						<Route path='/physician-billing-services' exact component={PhysicianBillingServices} />
-						<Route path='/medical-claim-billing' exact component={MedicalClaimBilling} />						
+						<Route path='/medical-claim-billing' exact component={MedicalClaimBilling} />	
+						<Route path='/internal-medicine-and-nephrology-billing-service' exact component={InternalMedicineAndNephrologyBillingServices} />	
+											
 						<Route component={Error} />
 						
 					</Switch>
