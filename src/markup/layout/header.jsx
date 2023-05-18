@@ -106,7 +106,7 @@ class Header extends Component{
 												</li>
 												<li><Link to="/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>
 												<li><Link to="/streamlining-medical-AR-recovery"><span>Streamlining Medical AR Recovery - Boosting Revenue Collection Promptly</span></Link></li>
-												<li><Link to="/service-detail"><span>Practice Management</span></Link></li>
+												<li><Link to="/practice-management"><span>Practice Management</span></Link></li>
 												<li><Link to="/service-detail"><span>Verification of healthcare insurance eligibility</span></Link></li>
 												<li><Link to="/service-detail"><span>Revenue Cycle Management Company (RCM)</span></Link></li>
 												<li><Link to="/service-detail"><span>Denial Management Services</span></Link></li>

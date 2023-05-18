@@ -30,6 +30,7 @@ import ICD10MedicalCoding from './pages/ICD-10-medical-coding';
 import MedicalBillingCodingServices from './pages/medical-billing-coding-services';
 import MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices from './pages/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services';
 import StreamliningMedicalARRecovery from './pages/streamlining-medical-AR-recovery';
+import PracticeManagement from './pages/practice-management';
 
 class Markup extends Component{
 	render(){
@@ -62,6 +63,7 @@ class Markup extends Component{
 						<Route path='/ICD-10-medical-coding' exact component={ICD10MedicalCoding} />
 						<Route path='/maximize-your-reimbursement-rate-with-our-medical-billing-and-collection-services' exact component={MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices} />
 						<Route path='/streamlining-medical-AR-recovery' exact component={StreamliningMedicalARRecovery} />
+						<Route path='/practice-management' exact component={PracticeManagement} />
 						<Route component={Error} />
 						
 					</Switch>
