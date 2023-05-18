@@ -87,8 +87,16 @@ class Header extends Component{
 										<li><Link to="/about-us"><span>About Us</span></Link></li>
 										<li>
 											<Link to="#">Services</Link>
-											<ul className="sub-menu">												
-												<li><Link to="/physician-billing-services"><span>Physician Billing Services</span></Link></li>
+											<ul className="sub-menu lg-menu">												
+												<li>
+													<Link to="/physician-billing-services"><span>Physician Billing Services</span></Link>
+													<ul className="sub-menu md-menu">												
+														<li><Link to="/medical-claim-billing"><span>Medical claim Billing</span></Link></li>
+														<li><Link to="/service-detail"><span>Internal medicine and nephrology billing services</span></Link></li>
+														<li><Link to="/service-detail"><span>Radiology billing services</span></Link></li>
+														<li><Link to="/service-detail"><span>Cardiology medical billing</span></Link></li>														
+													</ul>
+												</li>
 												<li><Link to="/service-detail"><span>Improving Your Financial Health with Profit Enhancement Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Medical Billing & Coding Services</span></Link></li>
 												<li><Link to="/service-detail"><span>Maximize Your Reimbursement Rate with Our Medical Billing and Collection Services</span></Link></li>

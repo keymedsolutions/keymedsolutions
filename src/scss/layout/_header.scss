@@ -298,6 +298,16 @@
 			}
 			.mega-menu,
 			.sub-menu {
+				&.lg-menu{
+					width: 500px;
+					li>.sub-menu.md-menu {
+						left: -350px;
+						@include transitionMedium;
+					}
+				}
+				&.md-menu {
+					width: 350px;
+				}
 				background-color: #ffffff;
 				display: block;
 				left: 0;
@@ -479,7 +489,10 @@
 						opacity: 1;
 						visibility: visible;
 						margin-top: 0;
-						top: -1px;
+						top: -1px;						
+					}
+					li:hover > .sub-menu.lg-menu{
+						left: 0px;
 					}
 				}
 				a{
