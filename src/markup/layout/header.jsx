@@ -110,7 +110,7 @@ class Header extends Component{
 												<li><Link to="/verification-of-healthcare-insurance-eligibility"><span>Verification of healthcare insurance eligibility</span></Link></li>
 												<li><Link to="/revenue-cycle-management-company"><span>Revenue Cycle Management Company (RCM)</span></Link></li>
 												<li><Link to="/denial-management-service"><span>Denial Management Services</span></Link></li>
-												<li><Link to="/service-detail"><span>Physician Credentialing</span></Link></li>
+												<li><Link to="/physician-credentialing"><span>Physician Credentialing</span></Link></li>
 											</ul>										
 										</li>
 										<li><Link to="/about-us"><span>Our Specialties</span></Link></li>

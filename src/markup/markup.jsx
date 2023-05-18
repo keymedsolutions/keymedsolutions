@@ -34,6 +34,7 @@ import PracticeManagement from './pages/practice-management';
 import VerificationOfHealthcareInsuranceEligibility from './pages/verification-of-healthcare-insurance-eligibility';
 import RevenueCycleManagementCompany from './pages/revenue-cycle-management-company';
 import DenialManagementServices from './pages/denial-management-service';
+import PhysicianCredentialing from './pages/physician-credentialing';
 
 class Markup extends Component{
 	render(){
@@ -70,6 +71,7 @@ class Markup extends Component{
 						<Route path='/verification-of-healthcare-insurance-eligibility' exact component={VerificationOfHealthcareInsuranceEligibility} />
 						<Route path='/revenue-cycle-management-company' exact component={RevenueCycleManagementCompany} />
 						<Route path='/denial-management-service' exact component={DenialManagementServices} />
+						<Route path='/physician-credentialing' exact component={PhysicianCredentialing} />
 						<Route component={Error} />
 						
 					</Switch>
