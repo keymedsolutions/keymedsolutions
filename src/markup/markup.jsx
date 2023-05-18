@@ -32,6 +32,7 @@ import MaximizeYourReimbursementRateWithOurMedicalBillingAndCollectionServices f
 import StreamliningMedicalARRecovery from './pages/streamlining-medical-AR-recovery';
 import PracticeManagement from './pages/practice-management';
 import VerificationOfHealthcareInsuranceEligibility from './pages/verification-of-healthcare-insurance-eligibility';
+import RevenueCycleManagementCompany from './pages/revenue-cycle-management-company';
 
 class Markup extends Component{
 	render(){
@@ -66,6 +67,7 @@ class Markup extends Component{
 						<Route path='/streamlining-medical-AR-recovery' exact component={StreamliningMedicalARRecovery} />
 						<Route path='/practice-management' exact component={PracticeManagement} />
 						<Route path='/verification-of-healthcare-insurance-eligibility' exact component={VerificationOfHealthcareInsuranceEligibility} />
+						<Route path='/revenue-cycle-management-company' exact component={RevenueCycleManagementCompany} />
 						<Route component={Error} />
 						
 					</Switch>
