@@ -13,17 +13,17 @@ class Header extends Component{
 	componentDidMount() {
 		
 		// Search Form Popup
-		var searchBtn = document.getElementById("quikSearchBtn")
-        var searchForm = document.querySelector(".nav-search-bar")
-        var closeBtn = document.getElementById("searchRemove")
+		// var searchBtn = document.getElementById("quikSearchBtn")
+        // var searchForm = document.querySelector(".nav-search-bar")
+        // var closeBtn = document.getElementById("searchRemove")
 		
-        searchBtn.addEventListener('click',function(){
-            searchForm.classList.add("show")
-        })
+        // searchBtn.addEventListener('click',function(){
+        //     searchForm.classList.add("show")
+        // })
 
-        closeBtn.addEventListener('click',function(){
-            searchForm.classList.remove("show")
-        })
+        // closeBtn.addEventListener('click',function(){
+        //     searchForm.classList.remove("show")
+        // })
 		
 		// Mobile Menu Open
 		var menuIcon = document.querySelector(".menuicon")
@@ -76,12 +76,12 @@ class Header extends Component{
 								</button>
 								<div className="secondary-menu">
 									<ul>
-										<li className="search-btn"><button id="quikSearchBtn" type="button" className="btn-link"><i className="las la-search"></i></button></li>
-										<li className="num-bx"><a href="tel:(+01)999888777"><i className="fas fa-phone-alt"></i> (+01) 999 888 777</a></li>
+										{/* <li className="search-btn"><button id="quikSearchBtn" type="button" className="btn-link"><i className="las la-search"></i></button></li> */}
+										<li className="num-bx"><a href="tel:+13364968296"><i className="fas fa-phone-alt"></i>+1 (336) 496-8296</a></li>
 										<li className="btn-area"><Link to="/contact-us" className="btn btn-primary shadow">CONTACT US <i className="btn-icon-bx fas fa-chevron-right"></i></Link></li>
 									</ul>
 								</div>
-								<div className="menu-links navbar-collapse collapse justify-content-end" id="menuDropdown">
+								<div className="menu-links navbar-collapse collapse justify-content-center" id="menuDropdown">
 									<div className="menu-logo">
 										<Link to="/"><img src={logo} alt=""/></Link>
 									</div>
@@ -117,7 +117,7 @@ class Header extends Component{
 											</ul>										
 										</li>
 										<li><Link to="/our-specialities"><span>Our Specialties</span></Link></li>
-										<li><Link to="/blog"><span>Blog</span></Link></li>
+										{/* <li><Link to="/blog"><span>Blog</span></Link></li>
 										<li>
 											<Link to="#">Contact Us</Link>
 											<ul className="sub-menu">												
@@ -125,7 +125,7 @@ class Header extends Component{
 												<li><Link to="/service-detail"><span>Job Opportunities</span></Link></li>
 												<li><Link to="/service-detail"><span>Location</span></Link></li>												
 											</ul>										
-										</li>
+										</li> */}
 										{/* <li>
 											<Link to="#">Pages <i className="fas fa-plus"></i></Link>
 											<ul className="sub-menu">
