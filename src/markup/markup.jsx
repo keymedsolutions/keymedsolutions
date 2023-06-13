@@ -57,7 +57,7 @@ class Markup extends Component{
 						<Route path='/contact-us' exact component={ContactUs} />
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/blog-grid' exact component={BlogGrid} />
-						<Route path='/blog-details' exact component={BlogDetails} />
+						<Route path='/blog' exact component={BlogDetails} />
 						<Route path='/physician-billing-services' exact component={PhysicianBillingServices} />
 						<Route path='/medical-claim-billing' exact component={MedicalClaimBilling} />	
 						<Route path='/internal-medicine-and-nephrology-billing-service' exact component={InternalMedicineAndNephrologyBillingServices} />	

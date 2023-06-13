@@ -56,11 +56,11 @@ class testimonialSection extends Component{
 									<div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
+												<p>When it comes to our requirements for revenue cycle management, Key Med Solutions has been a tremendous asset. Their knowledge, care for the little things, and dedication to getting things done have greatly enhanced our financial performance. We heartily endorse their offerings!</p>
 											</div>
 											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<h5 className="name">DR Shah</h5>
+												<p>Doctor</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -70,11 +70,11 @@ class testimonialSection extends Component{
 									<div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
+												<p>Since partnering with Key Med Solutions, our revenue cycle has undergone a dramatic turnaround. Our financial results have been optimised by their customised solutions, smooth integration, and proactive attitude. We enthusiastically recommend Key Med Solutions as a trustworthy RCM partner.</p>
 											</div>
 											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<h5 className="name">DR Patel</h5>
+												<p>Doctor</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>
@@ -84,39 +84,11 @@ class testimonialSection extends Component{
 									<div className="slider-item">
 										<div className="testimonial-bx">
 											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
+												<p>Making the decision to choose Key Med Solutions for our revenue cycle management changed everything. Our company has been able to increase income, decrease rejections, and boost overall effectiveness thanks to their team's in-depth expertise and proactive attitude. We appreciate their cooperation and heartily endorse their offerings.</p>
 											</div>
 											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>patient</p>
-											</div>
-											<div className="quote-icon">
-												<i className="fas fa-quote-left"></i>
-											</div>
-										</div>
-									</div>
-									<div className="slider-item">
-										<div className="testimonial-bx">
-											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
-											</div>
-											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>patient</p>
-											</div>
-											<div className="quote-icon">
-												<i className="fas fa-quote-left"></i>
-											</div>
-										</div>
-									</div>
-									<div className="slider-item">
-										<div className="testimonial-bx">
-											<div className="testimonial-content">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecena ssuspendisse ultrices gravida.</p>
-											</div>
-											<div className="client-info">
-												<h5 className="name">John Deo</h5>
-												<p>patient</p>
+												<h5 className="name">DR chattopadhyay</h5>
+												<p>Doctor</p>
 											</div>
 											<div className="quote-icon">
 												<i className="fas fa-quote-left"></i>

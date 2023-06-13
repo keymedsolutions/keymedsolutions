@@ -117,16 +117,16 @@ class Header extends Component{
 											</ul>										
 										</li>
 										<li><Link to="/our-specialities"><span>Our Specialties</span></Link></li>
-										{/* <li><Link to="/blog"><span>Blog</span></Link></li>
-										<li>
+										<li><Link to="/blog"><span>Blog</span></Link></li>
+										{/* <li>
 											<Link to="#">Contact Us</Link>
 											<ul className="sub-menu">												
 												<li><Link to="/service-detail"><span>Submit Inquiry</span></Link></li>
 												<li><Link to="/service-detail"><span>Job Opportunities</span></Link></li>
 												<li><Link to="/service-detail"><span>Location</span></Link></li>												
 											</ul>										
-										</li> */}
-										{/* <li>
+										</li> 
+										<li>
 											<Link to="#">Pages <i className="fas fa-plus"></i></Link>
 											<ul className="sub-menu">
 												<li className="add-menu-left">
