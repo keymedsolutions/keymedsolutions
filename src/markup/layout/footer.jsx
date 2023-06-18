@@ -60,6 +60,13 @@ class aboutSection extends Component{
 											<a href="mailto:info@keymedsolution.com">info@keymedsolution.com</a><br />
 											<a href="tel:+13364968296">+1 (336) 496-8296</a>
 										</div>
+									</div><br /> 
+									<div className="footer-social-link">
+											<ul className="social-media">
+												<li><a rel="noreferrer" target="_blank" href="https://www.facebook.com/people/Key-Medsolution/100093008652071/"><i className="fab fa-facebook"></i></a></li>
+												<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/key-medsolutions/"><i className="fab fa-linkedin"></i></a></li>
+												<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/key_medsolution/"><i className="fab fa-instagram"></i></a></li>
+											</ul>
 									</div>
 								</div>
 								{/* <div className="col-xl-3 col-lg-3 col-md-6">
