@@ -89,15 +89,15 @@ class ContactUs extends Component{
 												</div>
 												<div className="icon-box">
 													<h6 className="title"><i className="ti-id-badge"></i>Email &amp; Phone</h6>		
-													<Link to="#" className="text-white">info@keymedsolution.com</Link>
-													<p>+1 (336) 496-8296</p>
+													<a href="mailto:info@keymedsolution.com" className="text-white">info@keymedsolution.com</a>
+													<a href="tel:+13364968296" className="text-white">+1 (336) 496-8296</a>
 												</div>
 												<div className="icon-box">
 													<h6 className="title"><i className="ti-world"></i>Follow Us</h6>
 													<ul className="social-media">
-														<li><a rel="noreferrer" target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
-														<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a></li>
-														<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
+														<li><a rel="noreferrer" target="_blank" href="https://www.facebook.com/people/Key-Medsolution/100093008652071/"><i className="fab fa-facebook"></i></a></li>
+														<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/key-medsolutions/"><i className="fab fa-linkedin"></i></a></li>
+														<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/key_medsolution/"><i className="fab fa-instagram"></i></a></li>
 													</ul>
 												</div>
 											</div>
@@ -108,7 +108,7 @@ class ContactUs extends Component{
 						</div>
 					</section>
 					
-					<section className="section-area section-sp1">
+					{/* <section className="section-area section-sp1">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-4 col-md-6 mb-30">
@@ -146,7 +146,7 @@ class ContactUs extends Component{
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 				
 				</div>
 				

@@ -34,68 +34,6 @@ const content = [
 		title: "How medical coding impacts the revenue cycle?",		
 		author: "Dr. Patel",
 		date: "19 July 2021",
-	},{ 
-		thumb: blogGridPic1,
-		authorPic: testPic1,
-		title: "Dental Care for Women is very important",		
-		author: "John deo",
-		date: "21 July 2021",
-	},
-	{ 
-		thumb: blogGridPic2,
-		authorPic: testPic2,
-		title: "In this hospital there are special surgeon",		
-		author: "Peter Packer",
-		date: "20 July 2021",
-	},
-	{ 
-		thumb: blogGridPic3,
-		authorPic: testPic3,
-		title: "Why Is Skin Surgeon Considered Underrated",		
-		author: "Sonar Moyna",
-		date: "19 July 2021",
-	},
-	{ 
-		thumb: blogGridPic4,
-		authorPic: testPic4,
-		title: "Understand Health Before You Regret",		
-		author: "Kalina",
-		date: "18 July 2021",
-	},
-	{ 
-		thumb: blogGridPic5,
-		authorPic: testPic5,
-		title: "Health Will Be A Thing Of The Past And Here",		
-		author: "Michel",
-		date: "17 July 2021",
-	},
-	{ 
-		thumb: blogGridPic6,
-		authorPic: testPic6,
-		title: "Can you get a diflucan prescription online?",		
-		author: "Peter Packer",
-		date: "16 July 2021",
-	},
-	{ 
-		thumb: blogGridPic7,
-		authorPic: testPic1,
-		title: "Ten Gigantic Influences Of Health",		
-		author: "Sonar Moyna",
-		date: "15 July 2021",
-	},
-	{ 
-		thumb: blogGridPic8,
-		authorPic: testPic2,
-		title: "Why Is Skin Surgeon Considered Underrated",		
-		author: "Kalina",
-		date: "14 July 2021",
-	},
-	{ 
-		thumb: blogGridPic9,
-		authorPic: testPic3,
-		title: "Everyone need to go Dentist regularly",		
-		author: "Michel",
-		date: "13 July 2021",
 	},
 ]
 
@@ -146,7 +84,7 @@ class BlogGrid extends Component{
 									</div>
 								))}
 							</div>
-							<div className="row">
+							{/* <div className="row">
 								<div className="col-lg-12">
 									<div className="pagination-bx text-center mb-30 clearfix">
 										<ul className="pagination">
@@ -158,7 +96,7 @@ class BlogGrid extends Component{
 										</ul>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</section>
 					

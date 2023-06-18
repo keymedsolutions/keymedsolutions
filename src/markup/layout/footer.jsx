@@ -29,16 +29,7 @@ class aboutSection extends Component{
 										<div className="footer-logo">
 											<Link to="/"><img src={Logo} alt=""/></Link>
 										</div>
-										<div className="ft-contact">
-											{/* <p>Lorem ipsum is dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et.</p> */}
-											<div className="contact-bx">
-												<div className="icon"><i className="fas fa-phone-alt"></i></div>
-												<div className="contact-number">
-													<span>Contact Us</span>
-													<h4 className="number">+1 (336) 496-8296</h4>
-												</div>
-											</div>
-										</div>
+										
 									</div>
 								</div>
 								<div className="col-xl-3 col-lg-3 col-6">
@@ -59,6 +50,16 @@ class aboutSection extends Component{
 											<li><Link to="/radiology-billing-services"><span>Radiology billing services</span></Link></li>
 											<li><Link to="/cardiology-medical-billing"><span>Cardiology medical billing</span></Link></li>
 										</ul>
+									</div>
+								</div>
+								<div className="col-xl-3 col-lg-3 col-6 ft-contact">
+									<div className="contact-bx">
+										<div className="icon"><i className="fas fa-phone-alt"></i></div>
+										<div className="contact-number">
+											<span>Contact Us</span>
+											<a href="mailto:info@keymedsolution.com">info@keymedsolution.com</a><br />
+											<a href="tel:+13364968296">+1 (336) 496-8296</a>
+										</div>
 									</div>
 								</div>
 								{/* <div className="col-xl-3 col-lg-3 col-md-6">
