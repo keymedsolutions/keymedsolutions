@@ -18,8 +18,7 @@ class QuoteHome extends Component{
 				<div className="page-content bg-white quote">
                         <div className="page-banner banner-lg contact-banner" style={{backgroundImage: "url("+bnrImg1+")"}}>	
 							<div className="heading-bx text-center">
-								<h6 className="title-ext text-secondary">Looking for a Medical Billing Quote?</h6>
-								{/* <h2 className="title">Work smoothly with any in- House software you have</h2> */}
+								<h6 className="title-ext text-secondary">Submit your inquiry</h6>
 							</div>
 							<img className="pt-img1 animate-wave" src={animateWave} alt=""/>
 							<img className="pt-img2 animate2" src={animate2} alt=""/>
@@ -30,7 +29,7 @@ class QuoteHome extends Component{
 							<div className="contact-wraper">
 								<div className="row">
 									<div className="col-lg-6 mb-30">
-										<form className="form-wraper contact-form ajax-form">
+										<form action="mailto:info@keymedsolution.com" method="post" enctype="text/plain" className="form-wraper contact-form ajax-form">
 											<div className="ajax-message"></div>
 											<div className="row">
 												<div className="form-group col-md-12">
@@ -43,32 +42,10 @@ class QuoteHome extends Component{
 													<input name="phone" type="text" required className="form-control" placeholder="Phone Numbers"/>
 												</div>
 												<div className="form-group col-md-12">
-													<select className="form-select form-control">
-														<option value="0">Type here to select the state</option>
-														<option value="1">One</option>
-														<option value="2">Two</option>
-														<option value="3">Three</option>
-													</select>
-												</div>
-												<div className="form-group col-md-12">
-													<select className="form-select form-control">
-														<option value="0">Type here to select the Specialty</option>
-														<option value="1">One</option>
-														<option value="2">Two</option>
-														<option value="3">Three</option>
-													</select>
-												</div>
-												<div className="form-group col-md-12">
-													<input name="timeToCall" type="text" required className="form-control" placeholder="Best time to Call"/>
-												</div>
-												<div className="form-group col-md-12">
-													<input name="price" type="text" required className="form-control" placeholder="Price"/>
-												</div>
-												<div className="form-group col-md-12">
 													<textarea name="message" required className="form-control" placeholder="Please briefly describe your requirements"></textarea>
 												</div>
 												<div className="col-lg-12">
-													<button name="submit" type="submit" value="Submit" className="btn w-100 btn-secondary btn-lg">Request Quote</button>
+													<button name="submit" type="submit" value="Submit" className="btn w-100 btn-secondary btn-lg">Submit inquiry</button>
 												</div>
 											</div>
 										</form>
