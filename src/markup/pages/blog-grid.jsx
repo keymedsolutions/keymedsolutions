@@ -29,6 +29,12 @@ import blogGridPic9 from "../../images/blog/grid/pic9.jpg";
 // Blog Content
 const content = [
 	{ 
+		thumb: blogGridPic9,
+		authorPic: testPic1,
+		title: "How medical coding impacts the revenue cycle?",		
+		author: "Dr. Patel",
+		date: "19 July 2021",
+	},{ 
 		thumb: blogGridPic1,
 		authorPic: testPic1,
 		title: "Dental Care for Women is very important",		
@@ -98,22 +104,19 @@ class BlogGrid extends Component{
 	render(){
 		return (
 			<>
-				
-				<Header />
-				
+			<Header />
 				<div className="page-content bg-white">
-					
 					<div className="banner-wraper">
 						<div className="page-banner" style={{backgroundImage: "url("+bnrImg1+")"}}>
 							<div className="container">
 								<div className="page-banner-entry text-center">
-									<h1>Blog Grid 3</h1>
-									<nav aria-label="breadcrumb" className="breadcrumb-row">
+									<h1>Blogs</h1>
+									{/* <nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
 											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
-											<li className="breadcrumb-item active" aria-current="page">Blog Grid 3</li>
+											<li className="breadcrumb-item active" aria-current="page">Blogs</li>
 										</ul>
-									</nav>
+									</nav> */}
 								</div>
 							</div>
 							<img className="pt-img1 animate-wave" src={waveBlue} alt=""/>

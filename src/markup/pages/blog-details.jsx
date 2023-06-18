@@ -34,8 +34,7 @@ class BlogDetails extends Component{
 				<Header />
 				
 				<div className="page-content bg-white">
-					
-					<div className="banner-wraper">
+					{/* <div className="banner-wraper">
 						<div className="page-banner" style={{backgroundImage: "url("+bnrImg1+")"}}>
 							<div className="container">
 								<div className="page-banner-entry text-center">
@@ -52,7 +51,7 @@ class BlogDetails extends Component{
 							<img className="pt-img2 animate2" src={circleDots} alt=""/>
 							<img className="pt-img3 animate-rotate" src={plusBlue} alt=""/>
 						</div>
-					</div>
+					</div> */}
 					
 					<section className="section-area section-sp1 bg-white">
 						<div className="container">
@@ -110,12 +109,12 @@ class BlogDetails extends Component{
 												<p>Partner with us,  today to unlock the full potential of your revenue cycle through our unrivaled expertise in medical coding. Together, we can achieve superior financial outcomes and ensure the success of your healthcare organization.</p>
 											</div>
 											<div className="ttr-post-footer">
-												<div className="post-tags">
+												{/* <div className="post-tags">
 													<strong>Tags:</strong>
 													<Link to="#">Health</Link> 
 													<Link to="#">Growth</Link> 
 													<Link to="#">Life</Link> 
-												</div>
+												</div> */}
 												<div className="share-post ml-auto">
 													<ul className="social-media mb-0">
 														<li><strong>Share:</strong></li>
@@ -129,9 +128,9 @@ class BlogDetails extends Component{
 										</div>
 									</div>
 									
-									<AuthorProfile />
+									{/* <AuthorProfile /> */}
 									
-									<div className="clear" id="comment-list">
+									{/* <div className="clear" id="comment-list">
 										<div className="comments-area" id="comments">
 											<h4 className="widget-title">8 Comments</h4>
 											
@@ -143,7 +142,7 @@ class BlogDetails extends Component{
 												
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</div>
 								{/* <div className="col-md-12 col-lg-5 col-xl-4 mb-30">
 									<aside className="side-bar sticky-top aside-bx">
