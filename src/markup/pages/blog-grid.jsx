@@ -77,14 +77,14 @@ class BlogGrid extends Component{
 									<div className="col-xl-4 col-md-6">
 										<div className="blog-card mb-30">
 											<div className="post-media">
-												<Link to="/blog-details"><img src={item.thumb} alt=""/></Link>
+												<Link to={`/blog-details-${item.id}`}><img src={item.thumb} alt=""/></Link>
 											</div>
 											<div className="post-info">
 												<ul className="post-meta">
-													<li className="author"><Link to="/blog-details"><img src={item.authorPic} alt=""/> {item.author}</Link></li>
+													<li className="author"><Link to={`/blog-details-${item.id}`}><img src={item.authorPic} alt=""/> {item.author}</Link></li>
 													<li className="date"><i className="far fa-calendar-alt"></i> {item.date}</li>
 												</ul>
-												<h4 className="post-title"><Link to="/blog-details">{item.title}</Link></h4>		
+												<h4 className="post-title"><Link to={`/blog-details-${item.id}`}>{item.title}</Link></h4>		
 												<Link to={`/blog-details-${item.id}`} className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>		
 											</div>
 										</div>							
