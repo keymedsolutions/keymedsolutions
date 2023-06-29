@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import { useState } from "react";
+import axios from 'axios';
 
 // Layout
 import Header from "../layout/header2";
@@ -15,10 +17,34 @@ import animateWave from "../../images/shap/wave-blue.png";
 import animate2 from "../../images/shap/circle-dots.png";
 import animateRotate from "../../images/shap/plus-blue.png";
 
-
-class ContactUs extends Component{
-	
-	render(){
+const ContactUs = ({contactUs}) => {
+	const [name, setName] = useState("");
+	const [email, setEmail] = useState("");
+	const [phone, setPhone] = useState("");
+	const [message, setMessage] = useState("");
+	function handleSubmit(event) {
+		axios({
+			method: 'POST',
+			url: '/api/mail',
+			data: {
+				name: name,
+				email: email,
+				phone: phone,
+				message: message,
+				redirectionUrl: `https://keymedsolution.com`,
+				// time: time.toLocaleString('en-US'),
+			
+				attachments: [
+				{
+					// content: fileBase64,
+					// filename: guestSelectedFile.name,
+					// type: guestSelectedFile.type,
+					disposition: "attachment"
+				}
+				]
+			}
+		})
+	}
 		return (
 			<>
 				
@@ -50,31 +76,56 @@ class ContactUs extends Component{
 							<div className="contact-wraper">
 								<div className="row">
 									<div className="col-lg-6 mb-30">
-										<form className="form-wraper contact-form ajax-form">
+										<form 
+											className="form-wraper contact-form ajax-form"
+											onSubmit={handleSubmit}
+										>
 											<div className="ajax-message"></div>
 											<div className="row">
 												<div className="form-group col-md-12">
-													<input name="name" type="text" required className="form-control" placeholder="Your Name"/>
+													<input 
+														name="form-name" 
+														type="text" 
+														required 
+														className="form-control" 
+														placeholder="Your Name" 
+														value={name}
+														onChange={(e) => {
+															setName(e.target.value);
+														}}
+													/>
 												</div>
 												<div className="form-group col-md-12">
-													<input name="email" type="email" required className="form-control" placeholder="Email"/>
+													<input name="email" type="email" required className="form-control" placeholder="Email"
+														value={email}
+														onChange={(e) => {
+															setEmail(e.target.value);
+														}}
+													/>
 												</div>
 												<div className="form-group col-md-12">
-													<input name="phone" type="text" required className="form-control" placeholder="Phone Numbers"/>
+													<input name="phone" type="text" required className="form-control" placeholder="Phone Numbers"
+														value={phone}
+														onChange={(e) => {
+															setPhone(e.target.value);
+														}}
+													/>
 												</div>
 												<div className="form-group col-md-12">
-													<select className="form-select form-control">
-														<option selected>Selecty Department</option>
-														<option value="1">One</option>
-														<option value="2">Two</option>
-														<option value="3">Three</option>
-													</select>
-												</div>
-												<div className="form-group col-md-12">
-													<textarea name="message" required className="form-control" placeholder="Type Message"></textarea>
+													<textarea name="message" required className="form-control" placeholder="Type Message"
+														value={message}
+														onChange={(e) => {
+															setMessage(e.target.value);
+													}}
+													></textarea>
 												</div>
 												<div className="col-lg-12">
-													<button name="submit" type="submit" value="Submit" className="btn w-100 btn-secondary btn-lg">Submit</button>
+													<button 
+														name="submit" 
+														type="submit" 
+														onClick={handleSubmit}
+														value="Submit" 
+														className="btn w-100 btn-secondary btn-lg">Submit</button>
 												</div>
 											</div>
 										</form>
@@ -89,7 +140,7 @@ class ContactUs extends Component{
 												</div>
 												<div className="icon-box">
 													<h6 className="title"><i className="ti-id-badge"></i>Email &amp; Phone</h6>		
-													<a href="mailto:info@keymedsolution.com" className="text-white">info@keymedsolution.com</a>
+													<a href="mailto:info@keymedsolution.com" className="text-white">info@keymedsolution.com</a> <br></br>
 													<a href="tel:+13364968296" className="text-white">+1 (336) 496-8296</a>
 												</div>
 												<div className="icon-box">
@@ -154,7 +205,7 @@ class ContactUs extends Component{
 				
 			</>
 		);
-	}
+	
 }
 
 export default ContactUs;

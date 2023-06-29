@@ -18,7 +18,6 @@ import Faq from './pages/faq';
 import ContactUs from './pages/contact-us';
 import Booking from './pages/booking';
 import BlogGrid from './pages/blog-grid';
-import BlogDetails from './pages/blog-details';
 import Error from './pages/error-404';
 import PhysicianBillingServices from './pages/physician-billing-services';
 import MedicalClaimBilling from './pages/medical-claim-billing';
@@ -36,6 +35,9 @@ import RevenueCycleManagementCompany from './pages/revenue-cycle-management-comp
 import DenialManagementServices from './pages/denial-management-service';
 import PhysicianCredentialing from './pages/physician-credentialing';
 import OurSpecialities from './pages/our-specialities';
+import BlogDetails1 from './pages/blog-details-1';
+import BlogDetails2 from './pages/blog-details-2';
+import handler from './pages/api/mail';
 
 class Markup extends Component{
 	render(){
@@ -55,9 +57,11 @@ class Markup extends Component{
 						<Route path='/form-forget-password' exact component={FormForgetPassword} />
 						<Route path='/faq' exact component={Faq} />
 						<Route path='/contact-us' exact component={ContactUs} />
+						<Route path='/api/mail'  />
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/blogs' exact component={BlogGrid} />
-						<Route path='/blog-details' exact component={BlogDetails} />
+						<Route path='/blog-details-1' exact component={BlogDetails1} />
+						<Route path='/blog-details-2' exact component={BlogDetails2} />
 						<Route path='/physician-billing-services' exact component={PhysicianBillingServices} />
 						<Route path='/medical-claim-billing' exact component={MedicalClaimBilling} />	
 						<Route path='/internal-medicine-and-nephrology-billing-service' exact component={InternalMedicineAndNephrologyBillingServices} />	

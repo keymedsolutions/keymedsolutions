@@ -29,16 +29,23 @@ import blogGridPic9 from "../../images/blog/grid/pic9.jpg";
 // Blog Content
 const content = [
 	{ 
+		id: 1,
 		thumb: blogGridPic9,
 		authorPic: testPic1,
 		title: "How medical coding impacts the revenue cycle?",		
 		author: "Dr. Patel",
 		date: "19 July 2021",
-	},
+	}, {
+		id: 2,
+		thumb: blogGridPic8,
+		authorPic: testPic2,
+		title: "How AI is Improving Medical Coding Processes Accuracy and Efficiency",		
+		author: "Dr. Patel",
+		date: "19 July 2021",
+	}
 ]
 
 class BlogGrid extends Component{
-	
 	render(){
 		return (
 			<>
@@ -78,7 +85,7 @@ class BlogGrid extends Component{
 													<li className="date"><i className="far fa-calendar-alt"></i> {item.date}</li>
 												</ul>
 												<h4 className="post-title"><Link to="/blog-details">{item.title}</Link></h4>		
-												<Link to="/blog-details" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>		
+												<Link to={`/blog-details-${item.id}`} className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>		
 											</div>
 										</div>							
 									</div>
@@ -110,3 +117,4 @@ class BlogGrid extends Component{
 }
 
 export default BlogGrid;
+export {content};
