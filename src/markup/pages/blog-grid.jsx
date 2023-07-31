@@ -35,13 +35,20 @@ const content = [
 		title: "How medical coding impacts the revenue cycle?",		
 		author: "Dr. Patel",
 		date: "19 July 2021",
-	}, {
+	}, 	{
 		id: 2,
 		thumb: blogGridPic8,
 		authorPic: testPic2,
 		title: "How AI is Improving Medical Coding Processes Accuracy and Efficiency",		
 		author: "Dr. Patel",
 		date: "19 July 2021",
+	},	{
+		id: 3,
+		thumb: blogGridPic7,
+		authorPic: testPic3,
+		title: "Boost Your Practice's Performance with Revenue Cycle KPIs",		
+		author: "Dr. Patel",
+		date: "23 July 2021",
 	}
 ]
 

@@ -37,6 +37,7 @@ import PhysicianCredentialing from './pages/physician-credentialing';
 import OurSpecialities from './pages/our-specialities';
 import BlogDetails1 from './pages/blog-details-1';
 import BlogDetails2 from './pages/blog-details-2';
+import BlogDetails3 from './pages/blog-details-3';
 import handler from './pages/api/mail';
 
 class Markup extends Component{
@@ -62,6 +63,7 @@ class Markup extends Component{
 						<Route path='/blogs' exact component={BlogGrid} />
 						<Route path='/blog-details-1' exact component={BlogDetails1} />
 						<Route path='/blog-details-2' exact component={BlogDetails2} />
+						<Route path='/blog-details-3' exact component={BlogDetails3} />
 						<Route path='/physician-billing-services' exact component={PhysicianBillingServices} />
 						<Route path='/medical-claim-billing' exact component={MedicalClaimBilling} />	
 						<Route path='/internal-medicine-and-nephrology-billing-service' exact component={InternalMedicineAndNephrologyBillingServices} />	
