@@ -1,10 +1,10 @@
 export default function handler(req, res) {
-    if(req.method == "POST") {
+    if(req.method === "POST") {
         console.log(req.body)
         const mail = require('@sendgrid/mail');
         mail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
         const msg = {
-            to: 'info@keymedsolution.com', // Change to your recipient
+            to: 'urvishprajapati412@gmail.com', // Change to your recipient
             from: 'info@keymedsolution.com', // Change to your verified sender,
             subject: `[Global UpHire] New application for ${req.body.name}`,
             
@@ -78,7 +78,7 @@ export default function handler(req, res) {
                  
                 </ul>
                 <p>Note: Please login with your employer credentials to access link</p>
-                <a href="${req.body.redirectionUrl}"><button>Log in to view</button></a>
+                <a href="#"><button>Log in to view</button></a>
               </div>
               </div>
                 </body>
@@ -88,7 +88,8 @@ export default function handler(req, res) {
             res.status(200).json({ status: 'SUCCESS' })
         })
         .catch((error) => {
-            res.status(200).json({ status: 'FAILURE', error })
+            res.status(200).json({ status: 'FAILURE', error },
+            console.log('Error 123'))
         })
     } else {
         res.status(405).json({ status: 405, message:"Method not allowed"})

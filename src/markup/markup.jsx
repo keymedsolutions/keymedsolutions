@@ -58,7 +58,7 @@ class Markup extends Component{
 						<Route path='/form-forget-password' exact component={FormForgetPassword} />
 						<Route path='/faq' exact component={Faq} />
 						<Route path='/contact-us' exact component={ContactUs} />
-						<Route path='/api/mail'  />
+						<Route path='/api/mail'  exact component={handler}/>
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/blogs' exact component={BlogGrid} />
 						<Route path='/blog-details-1' exact component={BlogDetails1} />

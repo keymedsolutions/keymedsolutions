@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-
+import handler from '../pages/api/mail';
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
 import pic1 from "../../images/about/pic-1.jpg";
@@ -12,6 +12,21 @@ import animateRotate from "../../images/shap/plus-blue.png";
 class QuoteHome extends Component{
 	
 	render(){
+		async function handleOnSubmit(e) {
+			e.preventDefault();
+		  
+			const formData = {};
+		  
+			Array.from(e.currentTarget.elements).forEach(field => {
+			  if ( !field.name ) return;
+			  formData[field.name] = field.value;
+			});
+		  
+			await fetch('/api/mail', {
+			  method: 'POST',
+			  body: JSON.stringify(formData)
+			});
+		  }
 		return (
 			<>
 								
@@ -29,7 +44,7 @@ class QuoteHome extends Component{
 							<div className="contact-wraper">
 								<div className="row">
 									<div className="col-lg-6 mb-30">
-										<form action="mailto:info@keymedsolution.com" method="post" enctype="text/plain" className="form-wraper contact-form ajax-form">
+										<form onSubmit={handleOnSubmit} method="POST" enctype="text/plain" className="form-wraper contact-form ajax-form">
 											<div className="ajax-message"></div>
 											<div className="row">
 												<div className="form-group col-md-12">

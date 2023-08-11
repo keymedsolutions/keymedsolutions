@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 import axios from 'axios';
+import { render } from '@react-email/render';
+import sendgrid from '@sendgrid/mail';
+
 
 // Layout
 import Header from "../layout/header2";
@@ -25,7 +28,7 @@ const ContactUs = ({contactUs}) => {
 	function handleSubmit(event) {
 		axios({
 			method: 'POST',
-			url: '/api/mail',
+			url: '/api/maiwl',
 			data: {
 				name: name,
 				email: email,
@@ -34,14 +37,14 @@ const ContactUs = ({contactUs}) => {
 				redirectionUrl: `https://keymedsolution.com`,
 				// time: time.toLocaleString('en-US'),
 			
-				attachments: [
-				{
-					// content: fileBase64,
-					// filename: guestSelectedFile.name,
-					// type: guestSelectedFile.type,
-					disposition: "attachment"
-				}
-				]
+				// attachments: [
+				// {
+				// 	// content: fileBase64,
+				// 	// filename: guestSelectedFile.name,
+				// 	// type: guestSelectedFile.type,
+				// 	disposition: "attachment"
+				// }
+				// ]
 			}
 		})
 	}
