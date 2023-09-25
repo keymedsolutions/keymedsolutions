@@ -5,6 +5,7 @@ import Markup from './markup/markup';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 // Fonts
 import "./vendor/line-awesome/css/line-awesome.min.css";
 import "./vendor/font-awesome/css/all.min.css";
